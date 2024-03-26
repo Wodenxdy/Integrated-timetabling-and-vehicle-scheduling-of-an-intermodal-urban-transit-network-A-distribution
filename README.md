@@ -22,5 +22,10 @@ This is the Gurobi code for TTRDCP
 
 Run `APP.py` to execute the model generation and optimization process:
 
+## Data
+- Four stations, two trips.
+- 'passenger_demand_generate.npy': Randomly generated passenger flow data.
+- 'running_nominal.npy': Randomly generated travel time.
+
 ```bash
 python APP.py
