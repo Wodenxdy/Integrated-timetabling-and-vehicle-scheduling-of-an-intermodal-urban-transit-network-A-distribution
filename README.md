@@ -30,8 +30,11 @@ Run `APP.py` to execute the model generation and optimization process:
 - Doi:https://doi.org/10.1016/j.trc.2024.104610
 
 ## Flowchart for the hybride algorithm in the paper
-
 <img width="786" alt="image" src="https://github.com/user-attachments/assets/7eaf3e73-14a8-4e7f-89ff-ca214780e5a6">
+
+## Results
+<img width="626" alt="image" src="https://github.com/user-attachments/assets/ee9e252e-0e4c-4365-bf17-29265f590a0a">
+
 
 ```bash
 python APP.py
