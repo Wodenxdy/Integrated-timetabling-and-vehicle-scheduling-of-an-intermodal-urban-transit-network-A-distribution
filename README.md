@@ -1,5 +1,5 @@
-# TTRDCP
-This is the Gurobi code for TTRDCP
+# Integrated timetabling and vehicle scheduling model
+This is the Gurobi code for TTVSP model proposed in the paper
 
 ## Setup
 
@@ -32,4 +32,9 @@ python APP.py
 - Author: Dongyang Xia, Jihui Ma, Sh. Sharif Azadeh
 - Abstract: Integrating emerging shared mobility with traditional fixed-line public transport is a promising solution to the mismatch between supply and demand in urban transportation systems. The advent of modular vehicles (MVs) provides opportunities for more flexible and seamless intermodal transit. The MVs, which have been implemented, are comprised of automated modular units (MUs), and can dynamically change the number of MUs comprising them at different times and stops. However, this innovative intermodal urban transit brings with it a new level of dynamism and uncertainty. In this paper, we study the problem of jointly optimizing the timetable and the vehicle schedule within an intermodal urban transit network utilizing MVs within the context of distributionally robust optimization (DRO), which allows MVs to dynamically (de)couple at each stop and permits flexible circulations of MUs across different transportation modes. We propose a DRO formulation to explore the trade-off between operators and passengers, with the objective of minimizing the worst-case expectation of the weighted sum of passengers’ and operating costs. Furthermore, to address the computational intractability of the proposed DRO model, we design a discrepancy-based ambiguity set to reformulate it into a mixed-integer linear programming model. In order to obtain high-quality solutionss of realistic instances, we develop a customized decomposition-based algorithm. Extensive numerical experiments demonstrate the effectiveness of the proposed approach. The computational results of real-world case studies based on the operational data of Beijing Bus Line illustrate that the proposed integrated timetabling and vehicle scheduling method reduces the expected value of passengers’ and operating costs by about 6% in comparison with the practical timetable and fixed-capacity vehicles typically used in the Beijing bus system.
 - Doi:https://doi.org/10.1016/j.trc.2024.104610
+
+## Flowchart for the hybride algorithm in the paper
+
+<img width="786" alt="image" src="https://github.com/user-attachments/assets/7eaf3e73-14a8-4e7f-89ff-ca214780e5a6">
+
 
