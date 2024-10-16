@@ -23,10 +23,6 @@ Run `APP.py` to execute the model generation and optimization process:
 - 'passenger_demand_generate.npy': Randomly generated passenger flow data.
 - 'running_nominal.npy': Randomly generated travel time.
 
-```bash
-python APP.py
-
-
 ## Paper
 - Title: Integrated timetabling and vehicle scheduling of an intermodal urban transit network: A distributionally robust optimization approach
 - Author: Dongyang Xia, Jihui Ma, Sh. Sharif Azadeh
@@ -36,5 +32,9 @@ python APP.py
 ## Flowchart for the hybride algorithm in the paper
 
 <img width="786" alt="image" src="https://github.com/user-attachments/assets/7eaf3e73-14a8-4e7f-89ff-ca214780e5a6">
+
+```bash
+python APP.py
+
 
 
